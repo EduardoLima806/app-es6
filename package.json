@@ -1,0 +1,25 @@
+{
+  "name": "app-es6",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "carlos.eduardo.lima <carlos.eduardo.lima@accenture.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.1.2",
+    "@babel/core": "^7.1.2",
+    "@babel/plugin-transform-async-to-generator": "^7.1.0",
+    "@babel/polyfill": "^7.0.0",
+    "babel-loader": "^8.0.4",
+    "webpack": "^4.22.0",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.9"
+  },
+  "scripts": {
+    "dev": "webpack-dev-server --mode=development",
+    "build": "webpack --mode=production"
+  },
+  "dependencies": {
+    "@babel/preset-env": "^7.1.0",
+    "axios": "^0.18.0"
+  }
+}
